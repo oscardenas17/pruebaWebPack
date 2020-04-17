@@ -1,0 +1,6 @@
+#Ejecutar un servidor
+npm install -g servor
+servor src index.html 8080
+
+#install webpack:
+npm install webpack webpack-cli --save-dev
