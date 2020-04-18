@@ -1,3 +1,3 @@
-function sayHi(){
-    document.getElementById('app').innerHTML = 'Vamos avanzando'
+export default function sayHi(){
+    document.getElementById('app').innerText = 'Vamos avanzando ¡¡¡'
 }

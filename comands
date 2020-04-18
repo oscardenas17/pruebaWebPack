@@ -1,6 +1,34 @@
 #Ejecutar un servidor
 npm install -g servor
 servor src index.html 8080
+# ya trabajando con main de webpack
+servor src dist 8080
 
-#install webpack:
+#install webpack: dependeincias de desarrollo
 npm install webpack webpack-cli --save-dev
+
+#ejecutar 
+npm run build 0 
+npm run dev #segun script en el json
+
+#react
+ npm install react react-dom
+
+$babel
+ npm install @babel/core babel-loader 
+@babel/preset-react -D
+
+# plugin-proposal babel
+npm install @babel/plugin-proposal-optional-chaining -D
+
+#npm install @babel/preset-env
+
+
+#pm i --save -dev html-webpack-plugin
+
+#
+npm install webpack-dev-server --save-dev
+
+#
+
+npm install compression-webpack-plugin --save-dev
